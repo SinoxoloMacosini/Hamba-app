@@ -1,0 +1,5 @@
+{
+  "name": "Hamba",
+  "description": "An offline-first, voice-driven navigation app for blind South Africans.",
+  "requestFramePermissions": ["geolocation", "microphone", "camera"]
+}

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+body {
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Custom Leaflet styles for high contrast */
+.leaflet-container {
+  background: #111 !important;
+}
+
+.leaflet-tile-pane {
+  filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
